@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="welcomeBackcolor">#019587</color>
+    <color name="viewpagerbackground">#EBEBEB</color>
+    <!-- tab底部栏目的切换 -->
+    <color name="title_category_select_color">#A52A2A</color>
+    <color name="title_category_unselect_color">#B23AEE</color>
+    
+    <!-- 标题栏按钮背景颜色 -->
+    <drawable name="button_backward_pressed">#FF3030</drawable>
+    <drawable name="button_backward_normal">#0000</drawable>
+    
+</resources>

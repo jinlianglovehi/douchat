@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+    
+   
+    <!-- 添加好友 -->
+    <Button
+         android:id="@+id/btn_chat"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:text="@string/liaotian"
+     />
+    
+     <!--  -->
+    <TextView
+        android:id="@+id/tv_username" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@id/btn_chat"
+        android:gravity="left|bottom"
+        android:paddingLeft="30dip"
+        android:text="mingzi"
+        android:textSize="20sp"
+     />
+    
+  
+</RelativeLayout>

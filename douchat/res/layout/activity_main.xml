@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <!-- 底部切换的按钮组消息 -->
+    <LinearLayout
+        android:id="@+id/title_category_model"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+       >
+        <TextView
+            android:id="@+id/liaotian"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="聊天"
+            android:layout_marginRight="0.5dip"
+            android:textColor="#fff"
+            android:background="@drawable/btn_title_selector"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/haoyou"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="好友"
+             android:layout_marginRight="0.5dip"
+            android:background="@drawable/btn_title_selector"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fuwu"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="服务"
+             android:layout_marginRight="0.5dip"
+             android:background="@drawable/btn_title_selector"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/myhome"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+             android:background="@drawable/btn_title_selector"
+            android:text="我的"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+    </LinearLayout>
+  
+    <FrameLayout 
+            android:id="@+id/fragment_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/title_category_model" /> 
+    
+  <!--    <android.support.v4.view.ViewPager 
+           android:id="@+id/vp_content"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@color/viewpagerbackground"
+           android:layout_above="@id/title_category_model"
+        >
+    </android.support.v4.view.ViewPager>  -->
+</RelativeLayout>
